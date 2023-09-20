@@ -1,5 +1,6 @@
 # TP-Ejercicio8-PP3
 Ejercicio 8 - Más Celulares
+
 Agregar al modelo armado para el ejercicio de celulares lo siguiente:
 a. Revisar si como está lo que hiciste, crear una persona nueva es fácil o no; si para 
 crear una persona hay que repetir código, pensar cómo hacer para que no sea así.
