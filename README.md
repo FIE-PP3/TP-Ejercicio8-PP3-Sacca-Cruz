@@ -17,12 +17,17 @@ minuto.
 d. Además de llamadas, se pueden enviar mensajes de texto entre celulares. Siempre 
 que un celular recibe un mensaje lo guarda. Movistar y Claro cobran $0,12 centavos 
 el mensaje, y Personal $0,15.
+
 • Hacer que una persona cualquiera le mande un mensaje a otra.
+
 • Saber cuántos mensajes le llegaron a una persona.
+
 • Saber si una persona recibió un cierto mensaje, o sea, un mensaje con un 
 determinado texto.
+
 • Saber si una persona recibió un mensaje que empiece con un determinado 
 texto, por ejemplo, con "Esta noche".
+
 • Saber cuánta plata gastó una persona luego de hacer varias llamadas y 
 envíos de mensajes.
 
