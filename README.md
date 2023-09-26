@@ -1,4 +1,4 @@
-# TP-Ejercicio8-PP3
+# TP-Ejercicio8-PP3-Sacca-Cruz
 Ejercicio 8 - Más Celulares
 
 Agregar al modelo armado para el ejercicio de celulares lo siguiente:
