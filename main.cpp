@@ -34,11 +34,11 @@ int main() {
 
         mostrar(juliana, catalina, juan, ernesto);
         if (juan.recibioMensaje("hola juan")) {
-            std::cout << "Juan ha recibido el mensaje: 'hola juan'" << std::endl;
+            std::cout << "Juan recibio el mensaje: 'hola juan'" << std::endl;
         }
 
         if (ernesto.recibioMensajeCon("este mensaje")) {
-            std::cout << "Ernesto ha recibido un mensaje que comienza con 'este mensaje'" << std::endl;
+            std::cout << "Ernesto recibio un mensaje que comienza con 'este mensaje'" << std::endl;
         }
         std::string eleccion;
         std::cout << "\nElige una accion (llamar / mensaje / recargar / salir): ";
