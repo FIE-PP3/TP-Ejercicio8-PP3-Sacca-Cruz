@@ -7,10 +7,10 @@ void mostrar(const Persona& juliana, const Persona& catalina, const Persona& jua
     std::cout << "Bateria del " << catalina.getCelular()->getModelo()  << catalina.getCelular()->getBateria() << "%" << std::endl;
     std::cout << "Bateria del " << juan.getCelular()->getModelo()  << juan.getCelular()->getBateria() << "%" << std::endl;
     std::cout << "Bateria del " << ernesto.getCelular()->getModelo()  << ernesto.getCelular()->getBateria() << "%" << std::endl;
-    std::cout << "Costo total de llamadas de Juliana: $" << juliana.getTotalCostoLlamadas() << std::endl;
-    std::cout << "Costo total de llamadas de Catalina: $" << catalina.getTotalCostoLlamadas() << std::endl;
-    std::cout << "Costo total de llamadas de Juan: $" << juan.getTotalCostoLlamadas() << std::endl;
-    std::cout << "Costo total de llamadas de Ernesto: $" << ernesto.getTotalCostoLlamadas() << std::endl;
+    std::cout << "Costo total de Juliana: $" << juliana.getTotalCostoLlamadas() << std::endl;
+    std::cout << "Costo total de Catalina: $" << catalina.getTotalCostoLlamadas() << std::endl;
+    std::cout << "Costo total de Juan: $" << juan.getTotalCostoLlamadas() << std::endl;
+    std::cout << "Costo total de Ernesto: $" << ernesto.getTotalCostoLlamadas() << std::endl;
     std::cout << "Mensajes recibidos por Juliana: " << juliana.getMensajesRecibidos() << std::endl;
     std::cout << "Mensajes recibidos por Catalina: " << catalina.getMensajesRecibidos() << std::endl;
     std::cout << "Mensajes recibidos por Juan: " << juan.getMensajesRecibidos() << std::endl;
