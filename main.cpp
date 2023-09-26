@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include "helper.h"
 
 // Función para mostrar el estado de las personas y celulares
