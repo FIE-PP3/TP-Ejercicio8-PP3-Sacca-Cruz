@@ -70,11 +70,11 @@ public:
     Celular* getCelular() const {
         return celular;
     }
-    bool haRecibidoMensaje(const std::string& texto) const {
+    bool recibioMensaje(const std::string& texto) const {
         return celular->tieneMensaje() && celular->getMensajeRecibido() == texto;
     }
 
-    bool haRecibidoMensajeQueEmpieceCon(const std::string& textoInicio) const {
+    bool recibioMensajeCon(const std::string& textoInicio) const {
         return celular->tieneMensaje() && celular->getMensajeRecibido().find(textoInicio) == 0;
     }
 };
