@@ -33,11 +33,11 @@ int main() {
     while (true) {
 
         mostrar(juliana, catalina, juan, ernesto);
-        if (juan.haRecibidoMensaje("hola juan")) {
+        if (juan.recibioMensaje("hola juan")) {
             std::cout << "Juan ha recibido el mensaje: 'hola juan'" << std::endl;
         }
 
-        if (ernesto.haRecibidoMensajeQueEmpieceCon("este mensaje")) {
+        if (ernesto.recibioMensajeCon("este mensaje")) {
             std::cout << "Ernesto ha recibido un mensaje que comienza con 'este mensaje'" << std::endl;
         }
         std::string eleccion;
