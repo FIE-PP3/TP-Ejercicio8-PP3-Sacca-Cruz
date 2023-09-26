@@ -32,6 +32,7 @@ protected:
     std::string mensajeRecibido;
     int mensajesRecibidos;
 
+
 public:
     Celular(const std::string& modelo) : bateria(100), modelo(modelo), mensajesRecibidos(0) {}
 
@@ -45,7 +46,7 @@ public:
         std::cout << "Llamada con " << getModelo() << " por " << duracion << " minutos." << std::endl;
     }
 
-    void recibirMensaje(const MensajeTexto& mensaje) {
+    void recibirMensaje(const MensajeTexto &mensaje) {
         bateria -= 1.0;
         mensajeRecibido = mensaje.getTexto();
         mensajesRecibidos++;

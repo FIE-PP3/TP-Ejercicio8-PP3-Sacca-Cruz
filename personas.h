@@ -48,7 +48,7 @@ public:
 
         p.getCelular()->recibirMensaje(MensajeTexto(texto, compania->getCostoMensaje()));
         totalCostoLlamadas += compania->getCostoMensaje();
-        mensajesRecibidos++;
+        p.mensajesRecibidos++;
     }
 
     void recargarCelular() {
