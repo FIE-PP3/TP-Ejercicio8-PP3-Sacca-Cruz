@@ -1,3 +1,5 @@
+// TP-Ejercicio8-PP3-Sacca-Cruz
+
 #include <iostream>
 #include "helper.h"
 
@@ -148,8 +150,7 @@ int main() {
 
         }
 
-
-    }
     limpiarpantalla();
+    }
     return 0;
 }

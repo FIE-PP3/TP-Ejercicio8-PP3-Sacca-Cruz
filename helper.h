@@ -1,6 +1,4 @@
-//
-// Created by pabli on 26/9/2023.
-//
+// TP-Ejercicio8-PP3-Sacca-Cruz
 
 #ifndef TP_EJERCICIO8_PP3_HELPER_H
 #define TP_EJERCICIO8_PP3_HELPER_H
