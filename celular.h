@@ -18,12 +18,12 @@ public:
 
     virtual void realizarLlamada(int duracion) {
         if (estaApagado()) {
-            std::cout << "No se puede hacer una llamada. El celular " << getModelo() << " está apagado." << std::endl;
+            std::cout << "\nNo se puede hacer una llamada. El celular " << getModelo() << " esta apagado.\n" << std::endl;
             return;
         }
 
         bateria -= 0.1 * duracion;
-        std::cout << "Llamada con " << getModelo() << " por " << duracion << " minutos." << std::endl;
+        std::cout << "\nLlamada con " << getModelo() << " por " << duracion << " minutos.\n" << std::endl;
     }
 
     void recibirMensaje(const MensajeTexto &mensaje) {
@@ -46,7 +46,7 @@ public:
 
     void recargar() {
         bateria = 100;
-        std::cout << "Celular " << modelo << " recargado. Batería al 100%" << std::endl;
+        std::cout << "\nCelular " << modelo << " recargado. Bateria al 100%\n" << std::endl;
     }
 
     bool estaApagado() const {
@@ -68,12 +68,12 @@ public:
 
     void realizarLlamada(int duracion) override {
         if (estaApagado()) {
-            std::cout << "No se puede hacer una llamada. El celular " << getModelo() << " está apagado." << std::endl;
+            std::cout << "\nNo se puede hacer una llamada. El celular " << getModelo() << " esta apagado.\n" << std::endl;
             return;
         }
 
         bateria -= 0.05 * duracion; // Descarga más lenta para el SamsungS21
-        std::cout << "Llamada con " << getModelo() << " por " << duracion << " minutos." << std::endl;
+        std::cout << "\nLlamada con " << getModelo() << " por " << duracion << " minutos.\n" << std::endl;
     }
 };
 
@@ -83,12 +83,12 @@ public:
 
     void realizarLlamada(int duracion) override {
         if (estaApagado()) {
-            std::cout << "No se puede hacer una llamada. El celular " << getModelo() << " está apagado." << std::endl;
+            std::cout << "\nNo se puede hacer una llamada. El celular " << getModelo() << " esta apagado.\n" << std::endl;
             return;
         }
 
         bateria -= 0.1 * duracion;
-        std::cout << "Llamada con " << getModelo() << " por " << duracion << " minutos." << std::endl;
+        std::cout << "\nLlamada con " << getModelo() << " por " << duracion << " minutos.\n" << std::endl;
     }
 };
 

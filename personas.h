@@ -7,6 +7,7 @@
 
 #include "celular.h"
 #include "mensajes.h"
+
 class Persona {
 private:
     Celular* celular;
@@ -24,12 +25,12 @@ public:
 
     void llamar(Persona& p, int duracion) {
         if (estaCelularApagado()) {
-            std::cout << "No puedes hacer una llamada. Tu celular está apagado." << std::endl;
+            std::cout << "\nNo puedes hacer una llamada. Tu celular esta apagado.\n" << std::endl;
             return;
         }
 
         if (p.estaCelularApagado()) {
-            std::cout << "No puedes llamar a " << p.getCelular()->getModelo() << ". Su celular está apagado." << std::endl;
+            std::cout << "\nNo puedes llamar a " << p.getCelular()->getModelo() << ". Su celular está apagado.\n" << std::endl;
             return;
         }
 
@@ -39,12 +40,12 @@ public:
 
     void enviarMensaje(Persona& p, const std::string& texto) {
         if (estaCelularApagado()) {
-            std::cout << "No puedes enviar un mensaje. Tu celular está apagado." << std::endl;
+            std::cout << "\nNo podes enviar un mensaje. Tu celular esta apagado.\n" << std::endl;
             return;
         }
 
         if (p.estaCelularApagado()) {
-            std::cout << "No puedes enviar un mensaje a " << p.getCelular()->getModelo() << ". Su celular está apagado." << std::endl;
+            std::cout << "\nNo podes enviar un mensaje a " << p.getCelular()->getModelo() << ". Su celular esta apagado.\n" << std::endl;
             return;
         }
 

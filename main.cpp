@@ -145,10 +145,11 @@ int main() {
             } else if (persona == "Ernesto") {
                 ernesto.recargarCelular();
             }
+
         }
-        limpiarpantalla();
+
 
     }
-
+    limpiarpantalla();
     return 0;
 }

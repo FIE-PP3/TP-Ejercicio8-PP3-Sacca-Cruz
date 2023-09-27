@@ -20,6 +20,7 @@ public:
     float getCosto() const {
         return costo;
     }
+
 };
 
 
