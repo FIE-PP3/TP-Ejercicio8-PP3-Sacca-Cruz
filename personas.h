@@ -5,6 +5,8 @@
 #ifndef TP_EJERCICIO8_PP3_PERSONAS_H
 #define TP_EJERCICIO8_PP3_PERSONAS_H
 
+#include "celular.h"
+#include "mensajes.h"
 class Persona {
 private:
     Celular* celular;

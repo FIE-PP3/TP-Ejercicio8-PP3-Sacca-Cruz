@@ -4,26 +4,7 @@
 
 #ifndef TP_EJERCICIO8_PP3_CELULARES_H
 #define TP_EJERCICIO8_PP3_CELULARES_H
-
-
-
-class MensajeTexto {
-private:
-    std::string texto;
-    float costo;
-
-public:
-    MensajeTexto(const std::string& texto, float costo) : texto(texto), costo(costo) {}
-
-    const std::string& getTexto() const {
-        return texto;
-    }
-
-    float getCosto() const {
-        return costo;
-    }
-};
-
+#include "mensajes.h"
 
 class Celular {
 protected:
@@ -31,7 +12,6 @@ protected:
     std::string modelo;
     std::string mensajeRecibido;
     int mensajesRecibidos;
-
 
 public:
     Celular(const std::string& modelo) : bateria(100), modelo(modelo), mensajesRecibidos(0) {}
